@@ -1,0 +1,74 @@
+* {
+    margin: 0; 
+    padding: 0;
+    font-family: Pacifico, arial;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(gtavbgr.jpg);
+    background-attachment: fixed;
+}
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 80%
+}
+header img {
+    width: 100%;
+    display: block;
+    border-radius: 80%;
+}
+
+nav {
+    background-color: darkcyan;
+}
+
+nav a {
+    float: left;
+    display: inline-block;
+    width: 25%;
+    padding: 15px 30px 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    
+}
+nav a:hover {
+  background-color: #ddb;
+}
+
+.active {
+    background-color: #dd
+}
+footer {
+    text-align: center;
+    background-color: white;
+}
+article {
+    margin-top:30px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+article h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 10% 20px 10%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+}
+img.left{
+    float: left;
+    padding: 10px;
+    width: 50%;
+    
+}
+article p{
+    text-align: center;
+    font-size: 20px;
+}
+section img{
+    width: 100%;
+    
+
+}
