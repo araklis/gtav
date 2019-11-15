@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+    
+    <head>
+    <!-- kodowanie znaków, możemy używać polskich znakow -->
+    <meta charset="UTF-8">
+    <!-- sposób wyświetlania na urządzeniach mobilnych -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tytuł strony -->
+    <title>Pierwsza Strona</title>
+    <!-- importuje czcionke, zeby jej użyć -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico" type="image">
+    <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div id="wrapper">
+            <header>
+                <img src="gtavlogo.jpg" alt="malediwy - header"/>
+                <background-image: src="gtavbgr.jpg"/>
+            </header>
+        
+            <nav>
+                <a class="menu active" href="#">Forum</a>
+                <a class="menu" href="#">Gallery</a>
+                <a class="menu" href="#">Game</a>
+                <a class="menu" href="#">Sdasdasd</a>
+            </nav>
+        
+            <section>
+                <article>
+                    <h1>Gta V Forum</h1>
+                    <p><img class="left" src="gta5logomale.png" alt="widok" />Gtav</p>
+                    <p>A tutaj będzie</p>
+                    <p>Cichego orędzie</p>
+            </article>
+            <img src="gtavlogo.jpg">
+        </section>
+        <footer>Copyright by Tomek</footer>
+        </div>
+    </body>
+</html>
